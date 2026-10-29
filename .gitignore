@@ -1,0 +1,23 @@
+# ===== 빌드 결과물 (STM32CubeIDE가 빌드할 때 다시 만듦) =====
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+*.bin
+*.hex
+
+# ===== 개인 IDE 환경 설정 (PC/사용자마다 다름) =====
+.settings/
+.metadata/
+.vscode/
+.idea/
+
+# ===== OS 자동 생성 파일 =====
+Thumbs.db
+desktop.ini
+.DS_Store
